@@ -1,0 +1,24 @@
+{
+  "name": "functional-programming-in-javascript",
+  "version": "1.0.0",
+  "description": "Some code based on Hardcore Functional Programming in Javascript from Pluralsight",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilobjr/functional-programming-in-javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "functional",
+    "programming"
+  ],
+  "author": "Danilo Barros <danilobjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danilobjr/functional-programming-in-javascript/issues"
+  },
+  "homepage": "https://github.com/danilobjr/functional-programming-in-javascript#readme"
+}
