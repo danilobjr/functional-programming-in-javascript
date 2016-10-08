@@ -19,5 +19,13 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    resolve: {
+        root: resolvePath('src'),
+        alias: {
+            fp: 'fp'
+        },
+        extensions: ['', '.webpack.js', '.web.js', '.js']
+    },
+    devtool: 'source-map'
 }
