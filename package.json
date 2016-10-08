@@ -4,7 +4,7 @@
   "description": "Some code based on Hardcore Functional Programming in Javascript from Pluralsight",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --content-base ./build --inline"
   },
   "repository": {
     "type": "git",
