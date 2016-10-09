@@ -1,12 +1,10 @@
-import { Mappable } from 'fp'
-
-class _Container extends Mappable {
+class _Container  {
     constructor(value) {
-        super(value);
+        this.value = value;
     }
 
     map(f) {
-        return super.map(f);
+        return Container(f(this.value));
     }
 }
 

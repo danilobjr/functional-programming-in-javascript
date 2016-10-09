@@ -1,0 +1,2 @@
+const not = x =>
+    !x
