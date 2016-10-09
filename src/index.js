@@ -1,3 +1,3 @@
-import { Container } from 'fp'
+import { correctName } from 'helpers'
 
-console.log(Container(3));
+console.log(correctName('Dada Nini Lolo'));
