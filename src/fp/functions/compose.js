@@ -1,5 +1,5 @@
 const compose = (...fs) => x =>
-    fs.reduce((accu, curr) => curr(accu), x)
+    fs.reduceRight((accu, curr) => curr(accu), x)
 
 export {
     compose
