@@ -14,3 +14,7 @@ const aperture = length => xs => {
 
     return result;
 }
+
+export {
+    aperture
+}

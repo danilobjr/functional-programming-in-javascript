@@ -3,3 +3,7 @@ const map = f => xs =>
         accu.push(f(curr));
         return accu;
     }, [])
+
+export {
+    map
+}

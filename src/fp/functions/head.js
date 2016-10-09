@@ -1,2 +1,6 @@
 const head = xs =>
-    xs[1]
+    xs[0]
+   
+export {
+    head
+}
