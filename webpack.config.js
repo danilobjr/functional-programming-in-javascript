@@ -23,7 +23,8 @@ module.exports = {
     resolve: {
         root: resolvePath('src'),
         alias: {
-            fp: 'fp'
+            fp: 'fp',
+            helpers: 'helpers'
         },
         extensions: ['', '.webpack.js', '.web.js', '.js']
     },
